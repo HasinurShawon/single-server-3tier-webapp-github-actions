@@ -1072,3 +1072,11 @@ echo "API Proxy:" && curl -sf http://localhost/api/measurements > /dev/null && e
 **Last Updated**: December 16, 2025  
 **Version**: 1.0  
 **For**: BMI Health Tracker Deployment
+
+---
+
+🧑‍💻 **Author**  
+**Md. Sarowar Alam**  
+Lead DevOps Engineer, Hogarth Worldwide  
+📧 Email: sarowar@hotmail.com  
+🔗 LinkedIn: linkedin.com/in/sarowar

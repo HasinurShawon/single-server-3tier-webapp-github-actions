@@ -1836,5 +1836,12 @@ psql -h localhost -U bmi_user -d bmidb -c "SELECT COUNT(*) FROM measurements;"
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** December 16, 2025  
-**Author:** BMI Health Tracker DevOps Team
+**Last Updated:** December 16, 2025
+
+---
+
+🧑‍💻 **Author**  
+**Md. Sarowar Alam**  
+Lead DevOps Engineer, Hogarth Worldwide  
+📧 Email: sarowar@hotmail.com  
+🔗 LinkedIn: linkedin.com/in/sarowar

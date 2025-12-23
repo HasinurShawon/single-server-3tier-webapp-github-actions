@@ -1010,3 +1010,11 @@ This guide covers all common update scenarios for your BMI Health Tracker applic
 5. **Keep dependencies up to date**
 
 For complex issues or questions, refer to the original `IMPLEMENTATION_GUIDE.md` or deployment documentation.
+
+---
+
+🧑‍💻 **Author**  
+**Md. Sarowar Alam**  
+Lead DevOps Engineer, Hogarth Worldwide  
+📧 Email: sarowar@hotmail.com  
+🔗 LinkedIn: linkedin.com/in/sarowar

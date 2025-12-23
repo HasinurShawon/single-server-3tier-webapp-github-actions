@@ -2563,12 +2563,6 @@ cd ~/single-server-3tier-webapp
 
 ---
 
-## License
-
-MIT License - Feel free to use, modify, and distribute.
-
----
-
 ## Support & Contact
 
 For issues, questions, or contributions:
@@ -2590,14 +2584,11 @@ For issues, questions, or contributions:
 
 ---
 
-## 🧑‍💻 Author
-
+🧑‍💻 **Author**  
 **Md. Sarowar Alam**  
 Lead DevOps Engineer, Hogarth Worldwide  
-
 📧 Email: sarowar@hotmail.com  
-🔗 LinkedIn: [linkedin.com/in/sarowar](https://www.linkedin.com/in/sarowar/)  
-🐙 GitHub: [md-sarowar-alam](https://github.com/md-sarowar-alam)
+🔗 LinkedIn: linkedin.com/in/sarowar
 
 ---
 

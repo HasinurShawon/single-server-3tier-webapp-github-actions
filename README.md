@@ -23,7 +23,6 @@ A production-ready, full-stack three-tier web application for tracking Body Mass
 - [Troubleshooting](#troubleshooting)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -1334,10 +1333,6 @@ Contributions are welcome! Here's how you can help:
 - Test deployment locally before submitting PR
 - Include clear commit messages
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🆘 Support
 
 For issues, questions, or contributions:
@@ -1413,15 +1408,8 @@ cd frontend && npm install && npm run dev
 
 ---
 
-## 🧑‍💻 Author
-
+🧑‍💻 **Author**  
 **Md. Sarowar Alam**  
-Lead DevOps Engineer, Hogarth Worldwide
-
+Lead DevOps Engineer, Hogarth Worldwide  
 📧 Email: sarowar@hotmail.com  
-🔗 LinkedIn: [linkedin.com/in/sarowar](https://www.linkedin.com/in/sarowar/)  
-🐙 GitHub: [md-sarowar-alam](https://github.com/md-sarowar-alam)
-
----
-
-**⭐ If you find this project helpful, please consider giving it a star on GitHub!**
+🔗 LinkedIn: linkedin.com/in/sarowar

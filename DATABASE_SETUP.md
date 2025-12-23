@@ -251,3 +251,11 @@ curl http://localhost:3000/api/measurements
 ✅ Only add secret if you want to standardize  
 
 **Next Steps:** Return to [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) to complete deployment setup.
+
+---
+
+🧑‍💻 **Author**  
+**Md. Sarowar Alam**  
+Lead DevOps Engineer, Hogarth Worldwide  
+📧 Email: sarowar@hotmail.com  
+🔗 LinkedIn: linkedin.com/in/sarowar

@@ -561,3 +561,11 @@ If you encounter issues:
 **Nginx auto-configured:** Reverse proxy and static file serving  
 
 **Your CI/CD pipeline is ready!** Push your changes and deployment happens automatically.
+
+---
+
+🧑‍💻 **Author**  
+**Md. Sarowar Alam**  
+Lead DevOps Engineer, Hogarth Worldwide  
+📧 Email: sarowar@hotmail.com  
+🔗 LinkedIn: linkedin.com/in/sarowar

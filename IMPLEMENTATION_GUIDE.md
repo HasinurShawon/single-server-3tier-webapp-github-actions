@@ -1570,3 +1570,10 @@ psql -U bmi_user -d bmidb -h localhost
 **Version**: 2.1  
 **Changes**: Updated to include measurement_date feature (Migration 002), enhanced testing procedures, and current project state
 
+---
+
+🧑‍💻 **Author**  
+**Md. Sarowar Alam**  
+Lead DevOps Engineer, Hogarth Worldwide  
+📧 Email: sarowar@hotmail.com  
+🔗 LinkedIn: linkedin.com/in/sarowar
