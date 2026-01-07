@@ -52,6 +52,11 @@ jobs:
     #       UserKnownHostsFile /dev/null
     #     EOF
     #     chmod 600 ~/.ssh/config
+    
+    - name: Debug SSH vars (safe)
+      run: |
+        if [ -z "${{ secrets.EC2_USER }}" ]; then echo "EC2_USER is EMPTY"; else echo "EC2_USER is SET"; fi
+        if [ -z "${{ secrets.EC2_HOST }}" ]; then echo "EC2_HOST is EMPTY"; else echo "EC2_HOST is SET"; fi
 
     - name: Test SSH Connection
       run: |
