@@ -30,41 +30,41 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    # runs-on: [self-hosted, Linux, X64]
+    # runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64]
     
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup SSH
-      uses: webfactory/ssh-agent@v0.9.0
-      with:
-        ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
-        log-public-key: true
+    # - name: Setup SSH
+    #   uses: webfactory/ssh-agent@v0.9.0
+    #   with:
+    #     ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
+    #     log-public-key: true
 
-    - name: Configure SSH to skip host key checking
-      run: |
-        mkdir -p ~/.ssh
-        cat >> ~/.ssh/config <<EOF
-        Host ${{ secrets.EC2_HOST }}
-          StrictHostKeyChecking no
-          UserKnownHostsFile /dev/null
-        EOF
-        chmod 600 ~/.ssh/config
+    # - name: Configure SSH to skip host key checking
+    #   run: |
+    #     mkdir -p ~/.ssh
+    #     cat >> ~/.ssh/config <<EOF
+    #     Host ${{ secrets.EC2_HOST }}
+    #       StrictHostKeyChecking no
+    #       UserKnownHostsFile /dev/null
+    #     EOF
+    #     chmod 600 ~/.ssh/config
 
-    - name: Test SSH Connection
-      run: |
-        ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "echo 'SSH connection successful'"
+    # - name: Test SSH Connection
+    #   run: |
+    #     ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "echo 'SSH connection successful'"
 
-    - name: Get Runner Public IP
-      run: |
-        echo "=========================================="
-        echo "Runner Public IP Information"
-        echo "=========================================="
-        RUNNER_IP=$(curl -s http://api.ipify.org/?format=text)
-        echo "Runner Public IP: $RUNNER_IP"
-        echo "runner_ip=$RUNNER_IP" >> $GITHUB_OUTPUT        
+    # - name: Get Runner Public IP
+    #   run: |
+    #     echo "=========================================="
+    #     echo "Runner Public IP Information"
+    #     echo "=========================================="
+    #     RUNNER_IP=$(curl -s http://api.ipify.org/?format=text)
+    #     echo "Runner Public IP: $RUNNER_IP"
+    #     echo "runner_ip=$RUNNER_IP" >> $GITHUB_OUTPUT        
 
     - name: Install Prerequisites (if needed)
       run: |
