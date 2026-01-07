@@ -53,18 +53,18 @@ jobs:
     #     EOF
     #     chmod 600 ~/.ssh/config
 
-    # - name: Test SSH Connection
-    #   run: |
-    #     ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "echo 'SSH connection successful'"
+    - name: Test SSH Connection
+      run: |
+        ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "echo 'SSH connection successful'"
 
-    # - name: Get Runner Public IP
-    #   run: |
-    #     echo "=========================================="
-    #     echo "Runner Public IP Information"
-    #     echo "=========================================="
-    #     RUNNER_IP=$(curl -s http://api.ipify.org/?format=text)
-    #     echo "Runner Public IP: $RUNNER_IP"
-    #     echo "runner_ip=$RUNNER_IP" >> $GITHUB_OUTPUT        
+    - name: Get Runner Public IP
+      run: |
+        echo "=========================================="
+        echo "Runner Public IP Information"
+        echo "=========================================="
+        RUNNER_IP=$(curl -s http://api.ipify.org/?format=text)
+        echo "Runner Public IP: $RUNNER_IP"
+        echo "runner_ip=$RUNNER_IP" >> $GITHUB_OUTPUT        
 
     - name: Install Prerequisites (if needed)
       run: |
