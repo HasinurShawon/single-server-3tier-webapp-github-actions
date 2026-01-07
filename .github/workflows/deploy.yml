@@ -60,7 +60,7 @@ jobs:
 
     - name: Test SSH Connection
       run: |
-        ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "echo 'SSH connection successful'"
+        ssh ubuntu@54.254.203.81 "echo 'SSH connection successful'"
 
     - name: Get Runner Public IP
       run: |
